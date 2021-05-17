@@ -1,6 +1,8 @@
 # industrial_computer_vision_21
 Repo for the course "Industrial Computer Vision" at University of Aveiro, group 1
 
+PreProcessAndSegmentation --------------------------------------------------------------------
+
 aquireImage.py: aquire image via 3 options: a) load image b) save frame of camera c) save frame of a video
 
 edgeDet.py: Script for canny-edge-detection with (pre- and postprocessing)
