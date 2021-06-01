@@ -1,8 +1,12 @@
 # industrial_computer_vision_21
 Repo for the course "Industrial Computer Vision" at University of Aveiro, group 1
-For this project the following frameworks and libraries were used: 
 
-opencv, tensorflow, keras, numpy, tkinter
+For this project the following frameworks and libraries were used: 
+- opencv
+- tensorflow
+- keras
+- numpy
+- tkinter
 
 
 ## Table of Contents  
