@@ -21,20 +21,18 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 
 
 ## ignore
-This folder contains outdated scripts and code snippets and can be ignored.
+This folder contains outdated scripts and code snippets and can be ignored in the greater context.
+Anyway, an important step in the pipeline is the preprocessing of obtained images. Codes for this process can be found in the folder
 
+- PreProcessAndSegmentation
 
-## PreProcessAndSegmentation
-
-aquireImage.py: aquire image via 3 options: a) load image b) save frame of camera c) save frame of a video
-
-edgeDet.py: Script for canny-edge-detection with (pre- and postprocessing)
-
-edgeDetectionInteractive.py: Interactive script to find out the 2 parameters for canny-edge-detection (with preprocessing)
-
-hsvThresholdingInteractive.py: Interactive script to find out colorbased thresholding in HSV-Colorspace
-
-nearest-neighbor-classify-LAB.py: Color-based calibration and segmentation in LAB-Space (Nearest Neighbor-Method)
+Scripts | Description
+-------|-----------------------------------
+aquireImage.py   | aquire image via 3 options: a) load image b) save frame of camera c) save frame of a video
+edgeDet.py   | Script for canny-edge-detection with (pre- and postprocessing)
+edgeDetectionInteractive.py   | Interactive script to find out the 2 parameters for canny-edge-detection (with preprocessing)
+hsvThresholdingInteractive.py   | Interactive script to find out colorbased thresholding in HSV-Colorspace
+nearest-neighbor-classify-LAB.py   | Color-based calibration and segmentation in LAB-Space (Nearest Neighbor-Method)
 
 ## hsv_thresholds
 This folder contains .txt files which contain lower and upper boundaries of the corresponfing HSV Color and another folder, in which images are save on which the color calibration can be performed.
@@ -44,6 +42,7 @@ This folder contains .tflite models which were trained on the dataset and can be
 
 ## own_dataset
 This is a self created dataset of lego bricks. 
+![](images/data.png) 
 
 Currently it consists of **5 different classes** of Lego and contains **~1100 images (".png", RGB encoded, 224x224)**.
 
