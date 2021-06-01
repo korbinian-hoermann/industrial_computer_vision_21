@@ -12,7 +12,6 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 
 
 
-...snip... 
 <a name="ignore"/>
 <a name="PreProcessAndSegmentation"/>
 <a name="hsv_thresholds"/>
