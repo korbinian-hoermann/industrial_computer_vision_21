@@ -1,7 +1,31 @@
 # industrial_computer_vision_21
 Repo for the course "Industrial Computer Vision" at University of Aveiro, group 1
 
-PreProcessAndSegmentation --------------------------------------------------------------------
+
+## Table of Contents  
+- [ignore](#ignore)
+- [PreProcessAndSegmentation](#PreProcessAndSegmentation)
+- [hsv_thresholds](#hsv_thresholds)
+- [models](#models)
+- [own_dataset](#own_dataset)
+- [python](#python)
+
+
+
+...snip... 
+<a name="ignore"/>
+<a name="PreProcessAndSegmentation"/>
+<a name="hsv_thresholds"/>
+<a name="models"/>
+<a name="own_dataset"/>
+<a name="python"/>
+
+
+## ignore
+This folder contains depreciated scripts and code snippets and can be ignored.
+
+
+## PreProcessAndSegmentation
 
 aquireImage.py: aquire image via 3 options: a) load image b) save frame of camera c) save frame of a video
 
@@ -12,3 +36,22 @@ edgeDetectionInteractive.py: Interactive script to find out the 2 parameters for
 hsvThresholdingInteractive.py: Interactive script to find out colorbased thresholding in HSV-Colorspace
 
 nearest-neighbor-classify-LAB.py: Color-based calibration and segmentation in LAB-Space (Nearest Neighbor-Method)
+
+## hsv_thresholds
+This folder contains .txt files which contain lower and upper boundaries of the corresponfing HSV Color and another folder, in which images are save on which the color calibration can be performed.
+
+## models
+This folder contains .tflite models which were trained on the dataset and can be used to perform predictions on the RaspberryPi.
+
+## own_dataset
+This is a self created dataset of lego bricks. 
+
+Currently it consists of **5 different classes** of Lego and contains **~1100 images (".png", RGB encoded, 224x224)**.
+
+
+## python
+This folder contains 3 the python scipts which can be run on the RaspberryPi:
+- hsv_thresholding_interactive_v2.py
+- image_accuisition.py
+- lego_brick_detection.py
+
