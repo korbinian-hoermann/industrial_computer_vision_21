@@ -65,7 +65,7 @@ This script opens 3 windows and allows to set different thresholds in the HSV co
 Description | Example image
 -------|-----------------------------------
 This scipts asks the user for which class of lego he wants to create images.   | ![](images/acquire_images_console.jpg)
-After the input of the preferred id, the program show a video stream of the camera and in a second window the detected video. By moving the camera, new ids are given to the pieces, showing them in different lightning and angles.   |  ![](images/acquire_images_detection.jpg)
+After the input of the prefered id, the program shows a video stream of the camera and in a second window the detected video. By moving the camera, new ids are given to the pieces, showing them in different lightning and angles.   |  ![](images/acquire_images_detection.jpg)
 After hitting 'ESC', two windows are shown. One contains information about all the detected pieces, the second one only shows the Id and the extracted image of this piece. By clicking on those columns, the images are saved to the 'dataset/<id>' folder.   |  ![](images/overview_and_save.jpg)
 
 - **lego_brick_detection.py**
