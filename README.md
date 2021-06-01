@@ -51,7 +51,27 @@ Currently it consists of **5 different classes** of Lego and contains **~1100 im
 
 ## python
 This folder contains 3 the python scipts which can be run on the RaspberryPi:
-- hsv_thresholding_interactive_v2.py
-- image_accuisition.py
-- lego_brick_detection.py
+
+- **hsv_thresholding_interactive_v2.py**
+
+Description | Example image
+-------|-----------------------------------
+This script opens 3 windows and allows to set different thresholds in the HSV colorspace. Those thresholds can than be saved to .txt files.   | ![](images/hsv_thresholding_interactive.jpg) 
+
+
+
+- **image_accuisition.py**
+
+Description | Example image
+-------|-----------------------------------
+This scipts asks the user for which class of lego he wants to create images.   | ![](images/acquire_images_console.jpg)
+After the input of the preferred id, the program show a video stream of the camera and in a second window the detected video. By moving the camera, new ids are given to the pieces, showing them in different lightning and angles.   |  ![](images/acquire_images_detection.jpg)
+After hitting 'ESC', two windows are shown. One contains information about all the detected pieces, the second one only shows the Id and the extracted image of this piece. By clicking on those columns, the images are saved to the 'dataset/<id>' folder.   |  ![](images/overview_and_save.jpg)
+
+- **lego_brick_detection.py**
+  
+ Description | Example image
+-------|-----------------------------------
+This script detects lego pieces in the video stream and uses a tflite model which was trained on Google Colab to predict the class of the lego pieces   | ![](images/detection_and_classification.jpg)
+  After hitting 'ESC', two windows are shown. One contains information about all the detected pieces, the second one only shows the Id, the extracted image and the predicted class of this piece. In case this predicted id is correct, those columns can be clicked and the images are saved to the 'dataset/<id>' folder in order to increase the size of the dataset with wich the model can be trained.   |  ![](images/final_overview.jpg)
 
