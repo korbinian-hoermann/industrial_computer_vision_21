@@ -5,7 +5,7 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 ## Table of Contents  
 - [ignore](#ignore)
   - [PreProcessAndSegmentation](#PreProcessAndSegmentation)
-  - OpenCV_tutorials
+  - [OpenCV_tutorials](#OpenCV_tutorials)
 - [hsv_thresholds](#hsv_thresholds)
 - [models](#models)
 - [own_dataset](#own_dataset)
@@ -15,6 +15,7 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 
 <a name="ignore"/>
 <a name="PreProcessAndSegmentation"/>
+<a name="OpenCV_tutorials"/>
 <a name="hsv_thresholds"/>
 <a name="models"/>
 <a name="own_dataset"/>
@@ -35,11 +36,19 @@ edgeDetectionInteractive.py   | Interactive script to find out the 2 parameters 
 hsvThresholdingInteractive.py   | Interactive script to find out colorbased thresholding in HSV-Colorspace
 nearest-neighbor-classify-LAB.py   | Color-based calibration and segmentation in LAB-Space (Nearest Neighbor-Method)
 
+- OpenCV_tutorials
+
+Useful code snippets and notes of some the opencv tutorials.
+
 ## hsv_thresholds
 This folder contains .txt files which contain lower and upper boundaries of the corresponfing HSV Color and another folder, in which images are save on which the color calibration can be performed.
 
 ## models
 This folder contains .tflite models which were trained on the dataset and can be used to perform predictions on the RaspberryPi.
+Therefore the image data set was zipped (.zip) and uploaded to Google Drive. In the next step Google GPU Backend for Google Colab was used for training the CNN faster in the cloud.
+The trained model is then saved on Google Drive, downloaded and transfered to the RaspberryPi where it can be used to perform predictions on new image data.
+
+Notebook: https://drive.google.com/file/d/1PNyl5kIR6DC3Wm9g0pjw5vuS2nyDFgEM/view?usp=sharing 
 
 ## own_dataset
 This is a self created dataset of lego bricks. 
