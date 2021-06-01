@@ -4,7 +4,8 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 
 ## Table of Contents  
 - [ignore](#ignore)
-- [PreProcessAndSegmentation](#PreProcessAndSegmentation)
+  - [PreProcessAndSegmentation](#PreProcessAndSegmentation)
+  - OpenCV_tutorials
 - [hsv_thresholds](#hsv_thresholds)
 - [models](#models)
 - [own_dataset](#own_dataset)
