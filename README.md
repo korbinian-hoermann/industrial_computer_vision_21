@@ -22,7 +22,7 @@ Repo for the course "Industrial Computer Vision" at University of Aveiro, group 
 
 
 ## ignore
-This folder contains depreciated scripts and code snippets and can be ignored.
+This folder contains outdated scripts and code snippets and can be ignored.
 
 
 ## PreProcessAndSegmentation
