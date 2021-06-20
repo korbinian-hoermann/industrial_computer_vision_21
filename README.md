@@ -8,6 +8,36 @@ The work for this project was done with Python 3.7 using the following framework
 - numpy
 - tkinter
 
+Some help for the installation of those libraries:
+Libraries to install: 
+openCV 4 (Tutorial: https://robu.in/installing-opencv-using-cmake-in-raspberry-pi/)
+
+And additionally: 
+sudo apt-get install python3-opencv
+sudo apt-get install libhdf5-dev
+sudo apt-get install libhdf5-serial-dev
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libjasper-dev 
+sudo apt-get install libqtgui4 
+sudo apt-get install libqt4-test
+From <https://www.raspberrypi.org/forums/viewtopic.php?t=232294> 
+
+
+Pip3 install Imutils
+Pip2 install tkinter
+
+Tensorflow 
+Pip3 install https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0-rc2/tensorflow-2.4.0rc2-cp37-none-linux_armv7l.whl
+
+From <https://towardsdatascience.com/3-ways-to-install-tensorflow-2-on-raspberry-pi-fe1fa2da9104> 
+
+
+Tensorflow lite
+pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
+
+From <https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html> 
+![grafik](https://user-images.githubusercontent.com/39766418/122679995-154cc200-d1e5-11eb-92ab-71796f863e90.png)
+
 
 ## Table of Contents  
 - [ignore](#ignore)
