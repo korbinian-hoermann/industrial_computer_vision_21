@@ -83,6 +83,9 @@ At the end of the script the mean-error is calculated over all images used for t
 The intrinsic parameters are stored in a json file. 
 The immediate following reading of the parameters is good for comparing if the writing worked, so that when the string is split into its variables again, it can be compared if everything is correct.
 
+The checkerboard pattern from the OpenCV page that was printed to perform the calibration is also added.
+Moreover, the intrinsic parameters stored in the JSON file are also uploaded.
+
 ## models
 This folder contains .tflite models which were trained on the dataset and can be used to perform predictions on the RaspberryPi.
 Therefore the image data set was zipped (.zip) and uploaded to Google Drive. In the next step Google GPU Backend for Google Colab was used for training the CNN faster in the cloud.
