@@ -77,6 +77,12 @@ Useful code snippets and notes of some the opencv tutorials.
 ## hsv_thresholds
 This folder contains .txt files which contain lower and upper boundaries of the corresponfing HSV Color and another folder, in which images are save on which the color calibration can be performed.
 
+## calibration
+This folder contains .jpg files which were used to do the intrinsic calibration. Furthermore, the script to perform the calibration is also included.
+At the end of the script the mean-error is calculated over all images used for the intrinsic calibration.
+The intrinsic parameters are stored in a json file. 
+The immediate following reading of the parameters is good for comparing if the writing worked, so that when the string is split into its variables again, it can be compared if everything is correct.
+
 ## models
 This folder contains .tflite models which were trained on the dataset and can be used to perform predictions on the RaspberryPi.
 Therefore the image data set was zipped (.zip) and uploaded to Google Drive. In the next step Google GPU Backend for Google Colab was used for training the CNN faster in the cloud.
