@@ -35,9 +35,6 @@ From <https://towardsdatascience.com/3-ways-to-install-tensorflow-2-on-raspberry
 Tensorflow lite
 pip3 install https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
 
-From <https://qengineering.eu/install-tensorflow-2-lite-on-raspberry-pi-4.html> 
-![grafik](https://user-images.githubusercontent.com/39766418/122679995-154cc200-d1e5-11eb-92ab-71796f863e90.png)
-
 
 ## Table of Contents  
 - [ignore](#ignore)
